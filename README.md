@@ -1,16 +1,4 @@
 # flutter_json_demo
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+[原文地址掘金](https://juejin.im/post/5b5d782ae51d45191c7e7fb3)
+#### demo内容： 
+flutter入门，json转model，有简单的map，到复杂的嵌套。
