@@ -3,7 +3,7 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'dart:convert';
 import 'package:flutter_json_demo/model/student_model.dart';
 
-// 异步得到数据对想
+// 异步得到数据对像i/o时需要用async
 Future<String> _loadStudentModelAsset() async{
   return await rootBundle.loadString('assets/student.json');
 }

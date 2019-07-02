@@ -1,11 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_json_demo/json_serializable_services/js_bakery_services.dart';
+import 'package:flutter_json_demo/json_serializable_services/js_page_services.dart';
 import 'package:flutter_json_demo/services/student_services.dart';
 import 'package:flutter_json_demo/services/address_services.dart';
 import 'package:flutter_json_demo/services/product_services.dart';
 import 'package:flutter_json_demo/services/photos_services.dart';
 import 'package:flutter_json_demo/services/shape_services.dart';
 import 'package:flutter_json_demo/services/page_services.dart';
+import 'package:flutter_json_demo/json_serializable_services/js_data_sercices.dart';
+
 // void main() => runApp(MyApp());
+
 void main(){
   runApp(MyApp());
   // loadStudentModel();
@@ -13,7 +18,10 @@ void main(){
   // loadShapeModel();
   // loadProductModel();
   // loadPhotoListModel();
-  loadPageModel();
+  // loadPageModel();
+  // loadJSDataModel();
+  // loadJSBakeryModel();
+  loadJSPageModel();
 }
 
 class MyApp extends StatelessWidget {
